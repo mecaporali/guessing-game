@@ -9,7 +9,7 @@ README.md: guessing_game.sh
 	echo "* Make Date:" >> README.md
 	date >> README.md
 
-	echo "Lines of code in script:" >> README.md
+	echo "* Lines of code in script:" >> README.md
 	cat guessing_game.sh | wc -l >> README.md
 
 clean:
